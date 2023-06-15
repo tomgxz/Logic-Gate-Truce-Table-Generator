@@ -87,7 +87,7 @@ while True:
     
     separator=separator.replace("%","-"*(len(variables)*3+2))
 
-    lines.append("Truce Table\n")
+    lines.append("Truth Table\n")
     lines.append(separator)
     lines.append("|%{:>3}{:>3}{:>3}\n".replace("%","{:>3}"*len(variables)).format(*variables,"|","Q","|"))
     lines.append(separator)
